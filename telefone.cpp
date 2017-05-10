@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 int main(){
-    char linha[30];
-    char telefone[30];
+    char linha[31];
+    char telefone[31];
     while(scanf("%s\n", linha)!= EOF){
         for(int i=0; i< sizeof(linha);i++){
             if(linha[i]=='A' || linha[i]=='B'||linha[i]=='C'){
